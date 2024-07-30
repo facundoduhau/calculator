@@ -1,0 +1,119 @@
+html, body
+{
+  height: 100vh;
+  margin: 0px;
+}
+.main
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 95vh;
+
+  background-color: #bdd4bc;
+}
+
+.footer
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  height: 5vh;
+
+  background-color: #1e1e2e;
+  color: #ffffff;
+}
+
+.skeleton                       /* Calculator's frame */
+{ 
+  display: flex;
+  justify-content: center;
+  
+  height: 80vh;
+  width: 65vh;
+
+  border-radius: 20px;
+
+  background-color: #191919;
+}
+
+.screen                       /* Screen display */
+{
+  display: flex;
+
+  height: 15vh;
+  width: 55vh;
+  
+  border-radius: 10px;
+
+  margin-top: 5vh;
+
+  background-color: #b3b3b3;
+}
+
+.buttons
+{
+  display: flex;
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  height:50vh;
+  width: 55vh;
+
+  margin-top: 20vh;
+
+  border-radius: 10px;
+
+  background-color: #666666;
+}
+
+
+button
+{
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  height: 10vh;
+  width: 10vh;
+}
+
+button:hover
+{
+  background-color: #28282B;
+  color: #b3b3b3;
+}
+
+.left-buttons
+{
+  justify-content: left;
+  
+  display: flex;
+  flex-wrap: wrap;
+  width: 66vh;
+  
+}
+
+.right-buttons
+{
+  justify-content: right;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.numbers
+{
+  background-color: #b3b3b3;
+}
+
+.interactions
+{
+  background-color: #AAFF00;
+}
+
