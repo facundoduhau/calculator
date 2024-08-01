@@ -24,23 +24,27 @@
 
         <div class="buttons">
 
-          <button class="left seven">7</button>          
-          <button class="left eight">8</button>
-          <button class="left nine">9</button>
-          <button class="left four">4</button>
-          <button class="left five">5</button>
-          <button class="left six">6</button>
-          <button class="left one">1</button>
-          <button class="left two">2</button>
-          <button class="left three">3</button>
-          <button class="left zero">0</button>
-          <button class="left dot">.</button>
-          <button class="del">DEL</button>
-          <button class="right times">x</button>
-          <button class="right divided">/</button>
-          <button class="right plus">+</button>
-          <button class="right minus">-</button>
-          <button class="right equals">=</button>
+          <button onclick="changeCurrent('7')" class="left seven">7</button>          
+          <button onclick="changeCurrent('8')" class="left eight">8</button>
+          <button onclick="changeCurrent('9')" class="left nine">9</button>
+          <button onclick="changeCurrent('4')" class="left four">4</button>
+          <button onclick="changeCurrent('5')" class="left five">5</button>
+          <button onclick="changeCurrent('6')" class="left six">6</button>
+          <button onclick="changeCurrent('1')" class="left one">1</button>
+          <button onclick="changeCurrent('2')" class="left two">2</button>
+          <button onclick="changeCurrent('3')" class="left three">3</button>
+          <button onclick="changeCurrent('0')" class="left zero">0</button>
+
+          <button onclick="addComma('.')" class="left dot">.</button>
+
+          <button onclick="operateCurrent('x')" class="right times">x</button>
+          <button onclick="operateCurrent('/')" class="right divided">/</button>
+          <button onclick="operateCurrent('+')" class="right plus">+</button>
+          <button onclick="operateCurrent('-')" class="right minus">-</button>
+
+          <button onclick="calculateContent('')" class="right equals">=</button>
+
+          <button onclick="deleteContent('')" class="del">DEL</button>
 
         </div>
 

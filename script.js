@@ -43,4 +43,31 @@ const operate = function(a, b) // Operations
   }
 }
 
+const current = document.getElementById("current");
+const previous = document.getElementById("previous");
 
+const changeCurrent = function(input)
+{
+  current.textContent += input;
+}
+
+const deleteContent = function(input)
+{
+  current.textContent = input;
+}
+
+const addComma = function(input)
+{
+  if (!current.textContent.includes('.'))
+    {
+      current.textContent += input;
+    }
+}
+
+const operateCurrent = function(input)
+{
+  if (!current.textContent == '' && !current.textContent.includes('x') && !current.textContent.includes('/') && !current.textContent.includes('+') && !current.textContent.includes('-'))
+    {
+      current.textContent += input;
+    }
+}
