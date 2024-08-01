@@ -196,4 +196,23 @@ button:hover
   margin-left: 5vh;
   
   background-color: #b3b3b3;
+
+  display: grid;
+  justify-items: end;
+  align-items: end;
+
+  grid-template-rows: 40% 60%;
+}
+
+.current
+{
+  font-size: 55px;
+  padding-right: 3vh;
+  padding-bottom: 1vh;
+}
+
+.previous
+{
+  font-size: 25px;
+  padding-right: 2vh;
 }
