@@ -14,11 +14,11 @@
       <div class="skeleton">
 
         <div id="calcScreen" class="screen">
-          <div class="previous">
-            123
+          <div id="previous" class="previous">
+            
           </div>
           <div id="current" class="current">
-            456 
+             
           </div>
         </div>
 
@@ -38,11 +38,11 @@
           <button onclick="addComma('.')" class="left dot">.</button>
 
           <button onclick="operateCurrent('x')" class="right times">x</button>
-          <button onclick="operateCurrent('/')" class="right divided">/</button>
+          <button onclick="operateCurrent('÷')" class="right divided">÷</button>
           <button onclick="operateCurrent('+')" class="right plus">+</button>
           <button onclick="operateCurrent('-')" class="right minus">-</button>
 
-          <button onclick="calculateContent('')" class="right equals">=</button>
+          <button onclick="calculateContent()" class="right equals">=</button>
 
           <button onclick="deleteContent('')" class="del">DEL</button>
 

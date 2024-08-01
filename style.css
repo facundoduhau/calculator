@@ -209,6 +209,7 @@ button:hover
   font-size: 55px;
   padding-right: 3vh;
   padding-bottom: 1vh;
+  max-width: 50vh;
 }
 
 .previous
