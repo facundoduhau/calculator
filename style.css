@@ -181,6 +181,7 @@ button:hover
 
 .del
 {
+  font-size: 30px;
   grid-row: 1;
   grid-column: 4 / 6;
   background-color: #f94449;
@@ -188,10 +189,12 @@ button:hover
 
 .right
 {
+  font-size: 30px;
   background-color: #83dc3d;
 }
 
 .left
 {
+  font-size: 30px;
   background-color: #b3b3b3;
 }
