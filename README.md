@@ -1,6 +1,6 @@
 # Calculator 🧮🔢
 
-This is the fourth "The Odin Project" exercise.
+This is the fifth "The Odin Project" exercise.
 
 The project required plenty of investigation to get to know how to cast different data types so that there are no errors whendoing the operation requested.
 
